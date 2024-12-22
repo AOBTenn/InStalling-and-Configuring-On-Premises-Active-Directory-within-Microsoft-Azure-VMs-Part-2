@@ -22,3 +22,5 @@ In this fourth part of the project, Active Directory will continue to be configu
 - Microsoft Azure Account
 
 <h2>Procedure Steps</h2>
+
+First you need to create the two organizations in Active Directory on the Dc-1 server. After using remote destop to connect to DC-1, click on the start icon, then "Windoes Administrative Tools", and thenopen "ACtive Directory Users and Computers." In the application window right click on the name of the forest created in part 3, go to "New" and then click on "Organizational Unit." In the new window type
