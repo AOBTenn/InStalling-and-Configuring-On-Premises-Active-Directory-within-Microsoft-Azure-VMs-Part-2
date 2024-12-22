@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/e4f41676-9505-49cf-82a1-c1ad2d5cf390)
 
 
-In this fourth part of the project, Active Directory will continue to be configured by building on the configurations created in https://github.com/AOBTenn/InStalling-and-Configuring-On-Premises-Active-Directory-within-Microsoft-Azure-VMs-Part-1.git to further simulate real world application in a working environment using previously created virtual machines in projects part-1 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part1.git and part-2 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git. To be more specific, two new organizations will be created and within those organizations an account administrator and a list of simulated emploees will be generated.<br />
+In this fourth part of the project, Active Directory will continue to be configured by building on the configurations created in https://github.com/AOBTenn/InStalling-and-Configuring-On-Premises-Active-Directory-within-Microsoft-Azure-VMs-Part-1.git to further simulate real world application in a working environment using previously created virtual machines in projects part-1 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part1.git and part-2 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git. To be more specific, two new organizations will be created and within those organizations an account administrator and a list of simulated emploees will be generated, and Client-1 will be joined to the domain which will allow the admin or any of the employeesto be able to log unto the computer.<br />
 
 
 <h2>Environments and Technologies Used</h2>
