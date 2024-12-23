@@ -23,4 +23,6 @@ In this fourth part of the project, Active Directory will continue to be configu
 
 <h2>Procedure Steps</h2>
 
-First you need to create the two organizations in Active Directory on the Dc-1 server. After using remote destop to connect to DC-1, click on the start icon, then "Windoes Administrative Tools", and then open "Active Directory Users and Computers." In the application window right click on the name of the forest created in part 3, go to "New" and then click on "Organizational Unit." In the new window type exactly "_EMPLOEES" then click the ok button. Now go back to the forest name, right click and go to "New" and then click on "Organizational Unit." In the new window type exactly "_ADMIN" then click the ok button.
+First you need to create the two organizations in Active Directory on the Dc-1 server. After using remote destop to connect to DC-1, click on the start icon, then "Windoes Administrative Tools", and then open "Active Directory Users and Computers." In the application window right click on the name of the forest created in part 3, go to "New" and then click on "Organizational Unit." In the new window type exactly "_EMPLOEES" then click the ok button. Now go back to the forest name, right click and go to "New" and then click on "Organizational Unit." In the new window type exactly "_ADMINS" then click the ok button.
+
+Now we are going to create the administrator account. First you need to select the "_ADMINS" org. unit folder, then right click on the empty window and go to "New"
