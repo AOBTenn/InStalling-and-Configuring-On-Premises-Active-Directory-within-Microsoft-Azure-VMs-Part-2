@@ -27,4 +27,5 @@ First you need to create the two organizations in Active Directory on the Dc-1 s
 
 Now we are going to create the administrator account. First you need to select the "_ADMINS" org. unit folder, then right click on the empty window and go to "New" and then "User." In the new user window type the name of your administrator and then click next. In the next window type the password for the admin and set any conditions for the account password, then click next and then finish to create the account. The next step is to modify admin acc. to make it an actual admin account even though it was created under the "_ADMINS" organizational unit. This is done by right clicking the admin account, go to properties, then click the "Member Of" tab. In the "Enter The Object Names..." box type domain admins. Lastly you click "Check Names," then ok, then apply, and ok again to finish.
 
-Now we must configure Client-1 by joining it to the domain/ forest. This is done by changing Client-1's private ip address to the private ip address of Dc-1.
+Now we must configure Client-1 by joining it to the domain/ forest. This is done by changing Client-1's private ip address to the private ip address of Dc-1. This step was completed in Preparing-Active-Directory-Environment-within-Azure-VMs-Part2
+https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git.
