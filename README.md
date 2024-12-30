@@ -41,7 +41,7 @@ First you need to create the two organizations in Active Directory on the Dc-1 s
 <p>Image 4
 </p>
 
-Now we are going to create the administrator account. First you need to select the "_ADMINS" org. unit folder that was previosly created, then right click on the empty window and go to "New" and then "User" (refer to image 5 and 6). In the new user window type the name of your administrator and then click next (refer to image 7). In the next window type the password for the admin and set any conditions for the account password, then click next and then finish to create the account (refer to image 8). 
+Now we are going to create the administrator account. First you need to select the "_ADMINS" org. unit folder that was previosly created, then right click on the empty window and go to "New" and then "User" (refer to image 5 and 6). In the new user window type the name of your administrator and then click next (refer to image 7). In the next window type the password for the admin and set any conditions for the account password, then click next and then finish to create the account (refer to image 8 and 9). 
 
 ![image](https://github.com/user-attachments/assets/324ca3f7-a6d9-4aa1-96d1-6a952a3e9ab1)
 <p>Image 5
@@ -65,7 +65,21 @@ Now we are going to create the administrator account. First you need to select t
 
 The next step is to modify admin acc. to make it an actual admin account by joining it to the original "Domain Admins" Security Group. This is done by right clicking the admin account, go to properties, then click the "Member Of" tab. In the "Enter The Object Names..." box type domain admins. Lastly you click "Check Names," then ok, then apply, and ok again to finish.
 
+![image](https://github.com/user-attachments/assets/1f4c94c3-326f-4591-81b0-25ec61fde615)
+<p>Image 1
+</p>
 
+![image](https://github.com/user-attachments/assets/6ef71b95-1c8d-498f-8e4f-bf8f01e6b250)
+<p>Image 1
+</p>
+
+![image](https://github.com/user-attachments/assets/5373a752-4980-406f-b65e-91ac6ed2b19c)
+<p>Image 1
+</p>
+
+![image](https://github.com/user-attachments/assets/fe4006da-22d8-4166-8ff3-8502adf62f11)
+<p>Image 1
+</p>
 
 
 
