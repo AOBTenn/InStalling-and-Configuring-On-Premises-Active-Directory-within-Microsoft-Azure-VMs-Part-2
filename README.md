@@ -86,28 +86,29 @@ The next step is to modify admin acc. to make it an actual admin account by join
 Next we must configure Client-1 by joining it to the domain/ forest. This is done by two steps, first by changing Client-1's private ip address to the private ip address of Dc-1. This step was completed in Preparing-Active-Directory-Environment-within-Azure-VMs-Part2 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git. The second step is to configure Client-1's Remote Desktop settings.
 
 
-Now the second step is to log into Client-1 with the username first created in part one of this project (refer to image 14 and 15). Then click the start button, go to system, and under the system settings go to "About" (refer to image 16 and 17). Next in the right corner of the "About"  window click "Rename this PC (advanced)" (refer to image 1). In the pop-up window under "Computer Name" click the "Change" button (refer to image 1). In the next window under "Member of" select domain and type the name of the forest/ domain, then click ok (refer to image 1). In the window that appears you have to give permission for Client-1 to join the doinam. This is done by typing the admin account name after the forest and the password, then click ok about three times. on the third ok the virtual machine will need to be restarted, once this is done Client-1 will be a member of the domain. Now that Client-1 is joined to the domain, it would be accessible to other employess based on permissions granted from the administrator account in a real working environment or setting.
+Now the second step is to log into Client-1 with the username first created in part one of this project (refer to image 14 and 15). Then click the start button, go to system (refer to image 16), and under the system settings go to "About" (refer to image 17 and 18). Next in the right corner of the "About" window click "Rename this PC (advanced)" (refer to image 1). In the pop-up window under "Computer Name" click the "Change" button (refer to image 1). In the next window under "Member of" select domain and type the name of the forest/ domain, then click ok (refer to image 1). In the window that appears you have to give permission for Client-1 to join the doinam. This is done by typing the admin account name after the forest and the password, then click ok about three times. on the third ok the virtual machine will need to be restarted, once this is done Client-1 will be a member of the domain. Now that Client-1 is joined to the domain, it would be accessible to other employess based on permissions granted from the administrator account in a real working environment or setting.
 
 ![image](https://github.com/user-attachments/assets/a39ee121-1657-4182-a2f8-ba9470b24674)
 <p>Image 14
 </p>
 
-
 ![image](https://github.com/user-attachments/assets/07f9e5f2-038a-44b6-b2c4-d81a1630fd27)
 <p>Image 15
 </p>
 
-![image](https://github.com/user-attachments/assets/cdb2e2a7-1eb3-4f36-89b3-94b465423fea)
+![image](https://github.com/user-attachments/assets/56f8f2a6-901e-40fe-9aba-5d73aade34ce)
 <p>Image 16
 </p>
 
-![image](https://github.com/user-attachments/assets/1b6f3f7b-aedf-4133-b76d-f89c0496398c)
+![image](https://github.com/user-attachments/assets/cdb2e2a7-1eb3-4f36-89b3-94b465423fea)
 <p>Image 17
 </p>
 
-![image](https://github.com/user-attachments/assets/56f8f2a6-901e-40fe-9aba-5d73aade34ce)
+![image](https://github.com/user-attachments/assets/1b6f3f7b-aedf-4133-b76d-f89c0496398c)
 <p>Image 18
 </p>
+
+
 
 ![image](https://github.com/user-attachments/assets/29f2a404-e659-485e-af41-a82c6264433a)
 <p>Image 19
