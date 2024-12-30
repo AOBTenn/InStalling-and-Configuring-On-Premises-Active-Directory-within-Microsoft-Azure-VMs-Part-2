@@ -29,4 +29,4 @@ Now we are going to create the administrator account. First you need to select t
 
 Now we must configure Client-1 by joining it to the domain/ forest. This is done by changing Client-1's private ip address to the private ip address of Dc-1 and configure Client-1's remote destop settings to allow any of the generated employees to be able to lod into Client-1. This step was completed in Preparing-Active-Directory-Environment-within-Azure-VMs-Part2 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git. 
 
-Now to adjust the remote desktop setteing's first log into Client-1 with the username first created in part one of this project.
+Now to adjust the remote desktop setteing's first log into Client-1 with the username first created in part one of this project. Then click the start botton, go to system, and under the system settings go to "About". Next in the right corner of the "About"  window click "Rename this PC (advanced)." In the pop-up window under "Computer Name" click the "Change" botton.
