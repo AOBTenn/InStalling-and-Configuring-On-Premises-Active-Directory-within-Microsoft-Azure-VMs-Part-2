@@ -25,15 +25,27 @@ In this fourth part of the project, Active Directory will continue to be configu
 
 First you need to create the two organizations in Active Directory on the Dc-1 server. After using remote destop to connect to DC-1, click on the start icon, then "Windoes Administrative Tools", and then open "Active Directory Users and Computers." In the application window right click on the name of the forest created in part 3, go to "New" and then click on "Organizational Unit." In the new window type exactly "_EMPLOEES" then click the ok button. Now go back to the forest name, right click and go to "New" and then click on "Organizational Unit." In the new window type exactly "_ADMINS" then click the ok button.
 
+![image](https://github.com/user-attachments/assets/69de1377-5177-4ea3-8e1d-d2f63f69dab9)
+<p>Image 1
+</p>
 
+![image](https://github.com/user-attachments/assets/5b95650a-dd49-4508-b065-3d42bf21a0e7)
+<p>Image 1
+</p>
 
+![image](https://github.com/user-attachments/assets/33d6091c-1cc2-4498-b261-558d7910426c)
+<p>Image 1
+</p>
 
+![image](https://github.com/user-attachments/assets/455522bd-a62e-460a-9efe-57bd1e6b2ef9)
+<p>Image 1
+</p>
 
 Now we are going to create the administrator account. First you need to select the "_ADMINS" org. unit folder, then right click on the empty window and go to "New" and then "User." In the new user window type the name of your administrator and then click next. In the next window type the password for the admin and set any conditions for the account password, then click next and then finish to create the account. The next step is to modify admin acc. to make it an actual admin account by joining it to the original "Domain Admins" Security Group. This is done by right clicking the admin account, go to properties, then click the "Member Of" tab. In the "Enter The Object Names..." box type domain admins. Lastly you click "Check Names," then ok, then apply, and ok again to finish.
 
 
 
-Now we must configure Client-1 by joining it to the domain/ forest. This is done by changing Client-1's private ip address to the private ip address of Dc-1 and configure Client-1's remote destop settings to allow any of the generated employees to be able to lod into Client-1. This step was completed in Preparing-Active-Directory-Environment-within-Azure-VMs-Part2 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git. 
+Next we must configure Client-1 by joining it to the domain/ forest. This is done by changing Client-1's private ip address to the private ip address of Dc-1 and configure Client-1's remote destop settings to allow any of the generated employees to be able to lod into Client-1. This step was completed in Preparing-Active-Directory-Environment-within-Azure-VMs-Part2 https://github.com/AOBTenn/Preparing-Active-Directory-Environment-within-Azure-VMs-Part2.git. 
 
 
 
