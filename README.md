@@ -63,7 +63,7 @@ Now we are going to create the administrator account. First you need to select t
 <p>Image 9
 </p>
 
-The next step is to modify admin acc. to make it an actual admin account by joining it to the original "Domain Admins" Security Group. This is done by right clicking the admin account, go to properties, then click the "Member Of" tab. In the "Enter The Object Names..." box type domain admins. Lastly you click "Check Names," then ok, then apply, and ok again to finish.
+The next step is to modify admin acc. to make it an actual admin account by joining it to the original "Domain Admins" Security Group. This is done by right clicking the admin account, going to properties (refer to image 10), and then click the "Member Of" tab (refer to image 11). In the "Enter The Object Names to Select" box type domain admins (refer to image 12). Lastly you click "Check Names," then ok, then apply, and ok again to finish (refer to image 13).
 
 ![image](https://github.com/user-attachments/assets/1f4c94c3-326f-4591-81b0-25ec61fde615)
 <p>Image 10
