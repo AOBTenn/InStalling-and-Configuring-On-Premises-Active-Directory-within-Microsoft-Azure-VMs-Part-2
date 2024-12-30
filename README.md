@@ -92,7 +92,6 @@ Now to adjust the Remote Desktop setting's first log into Client-1 with the user
 ![image](https://github.com/user-attachments/assets/2a8298fe-944f-4af8-acd6-2283537d87c7)
 ![image](https://github.com/user-attachments/assets/07f9e5f2-038a-44b6-b2c4-d81a1630fd27)
 
-![image](https://github.com/user-attachments/assets/4b7a9485-63ed-4c49-8d52-84794e6708df)
 
 
 
